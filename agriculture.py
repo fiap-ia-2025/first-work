@@ -67,6 +67,9 @@ def main():
 
     print_data(farming_size, farming_types, area_array, plants_per_area_array, total_need_water_array)
 
+    #TODO: Criar código para atualizar e deletar elementros dos arrays
+    #TODO: Criar código para permitir sair do programa
+
     sys.exit()
 
 # Chama a função principal

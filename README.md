@@ -25,6 +25,10 @@
 * Distância entre as plantas: 10 cm ou 0.1m
 * Espaço entre as linhas das lavoura: 50cm ou 0.5m
 
+**Entregas:**
+
+1. O código fonte em Python para o cálculo da área e do manejo de insumos das Lavouras de Soja e Cana de Açucar podem ser encontrados em: [agriculture.py](agriculture.py).
+2. O código fonte em R para cálculo de dados estatísticos básicos pode ser encontrado em: ESPECIFICAR APÓS.
 
 ## Referências:
 
