@@ -15,8 +15,8 @@ def total_plants_per_area_calculate(plants_per_meter, area):
     return total_plants_per_m2 * area
 
 def total_need_water_calculate(total_plants):
-    #Se uma planta necessita de 1L/m2 de água, então:
-    water_per_plant = 1
+    #Se uma planta necessita de 620L/m2 de água durante todo o plantio, então:
+    water_per_plant = 620
     return total_plants * water_per_plant
 
 def input_data(farming_size, farming_types, length_array, width_array, area_array, plants_per_meter_array, plants_per_area_array, total_need_water_array):
@@ -37,7 +37,7 @@ def print_data(farming_size, farming_types, area_array, plants_per_area_array, t
 
         print(f"Área: {area_array[i]:.2f}m2 \n")
         print(f"Quantidade total de plantas: {plants_per_area_array[i]} \n")
-        print(f"Quantidade necessárias de água: {total_need_water_array[i]:.2f} l/m2\n")
+        print(f"Quantidade necessária de água: {total_need_water_array[i]:.2f} l/m2\n")
 # Função principal
 def main():
 
