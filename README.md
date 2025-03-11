@@ -27,7 +27,7 @@
 
 **Entregas:**
 
-1. O código fonte em Python para o cálculo da área e do manejo de insumos das Lavouras de Soja e Cana de Açucar podem ser encontrados em: [agriculture.py](agriculture.py).
+1. O código fonte em Python para o cálculo da área e do manejo de insumos das Lavouras de Soja e Cana de Açucar podem ser encontrados em: [agriculture.py](main.py).
 2. O código fonte em R para cálculo de dados estatísticos básicos pode ser encontrado em: ESPECIFICAR APÓS.
 
 ## Referências:
