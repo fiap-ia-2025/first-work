@@ -1,4 +1,4 @@
-from agriculture_type import AgricultureType
+from source.agriculture_type import AgricultureType
 
 
 class Farm:

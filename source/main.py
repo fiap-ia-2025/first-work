@@ -1,8 +1,8 @@
 import sys
 from operation import Operation
-from farm import Farm
+from source.farm import Farm
 import numpy as np
-from agriculture_type import AgricultureType
+from source.agriculture_type import AgricultureType
 from builtins import ValueError
 
 
