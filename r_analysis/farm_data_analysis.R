@@ -11,7 +11,7 @@ if (!require(dplyr)) {
 }
 
 # Importar os dados das plantações e exibi-los
-farm_data <- read.csv("r_analysis/farm_data.csv")
+farm_data <- read.csv("farm_data.csv")
 print(farm_data)
 
 # Transformar 'agriculture_type' e 'farm_name' em fator para análise categórica

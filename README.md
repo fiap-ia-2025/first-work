@@ -56,6 +56,7 @@ A aplicação Python foi desenvolvida para coletar, calcular e armazenar os dado
 - `operation.py`: enumeração para controlar as operações disponíveis no menu
 - `exporter.py`: exporta os dados para o CSV
 - `__init__.py`: torna os diretórios pacotes válidos em Python (organização do projeto)
+- `run.py`: script principal para rodar a aplicação
 
 ## 📊 Módulo de Análise Estatística em R
 
@@ -85,6 +86,7 @@ Essas análises ajudam o agricultor a:
 ```bash
 first-work/
 │
+├── run.py                   # Script principal para rodar a aplicação
 ├── source/                  # Código-fonte em Python
 │   ├── __init__.py          # Identifica o diretório como pacote
 │   ├── main.py              # Menu principal e execução
@@ -100,6 +102,26 @@ first-work/
 │
 └── README.md                # Documentação do projeto
 ```
+## ▶️ Como Rodar a Aplicação (Python + R)
+
+### 1. Executar o sistema em Python
+
+```bash
+git clone https://github.com/fiap-ia-2025/first-work.git
+cd first-work
+
+python -m venv .venv
+source .venv/bin/activate  # ou .venv\Scripts\activate no Windows
+
+pip install numpy pandas
+
+python run.py
+```
+- O programa exporta automaticamente os dados para r_analysis/farm_data.csv
+
+### 2. Rodar as análises em R
+- Abrir RStudio e abrir projeto r_analysis/
+- Abrir arquivo farm_data_analysis.R e rodar spript
 
 ## Referências:
 1. Como estimar a produtividade na cultura da soja? : https://www.pioneer.com/br/blog/artigos/estimar-produtividade-soja.html
