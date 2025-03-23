@@ -16,6 +16,7 @@ def export_data_to_csv(registers):
         # Cria DataFrame a partir dos atributos e exporta para arquivo csv
         df = pd.DataFrame([
             {
+                "farm_name": farm.name,
                 "agriculture_type": farm.agriculture_type.describe(),
                 "area": farm.area,
                 "quantity_product": farm.quantity_product

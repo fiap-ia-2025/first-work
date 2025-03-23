@@ -3,12 +3,13 @@ from source.agriculture_type import AgricultureType
 
 class Farm:
 
-    def __init__(self, length, width, agriculture_type):
+    def __init__(self, length, width, agriculture_type, name=""):
         self.length = length
         self.width = width
         self.agriculture_type: AgricultureType = AgricultureType.SOYA if agriculture_type == AgricultureType.SOYA.value else AgricultureType.SUGAR_CANE
         self.area = None
         self.quantity_product = None
+        self.name = name
 
     def calculate_area(self):
         self.area = self.length * self.width

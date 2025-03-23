@@ -1,2 +1,6 @@
-agriculture_type,area,quantity_product
-Soja,12000.0,148800000.0
+farm_name,agriculture_type,area,quantity_product
+May Farm,Soja,12000.0,148800000.0
+May Farm,Soja,12100.0,150040000.0
+May Farm,Cana de açucar,91500.0,27450.0
+John Farm,Soja,96000.0,1190400000.0
+John Farm,Cana de açucar,40000.0,12000.0
