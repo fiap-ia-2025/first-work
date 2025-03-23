@@ -63,24 +63,21 @@ Após a coleta e exportação dos dados pelo programa Python, foi desenvolvido u
 
 ### 🔧 Funcionalidades
 - Leitura do arquivo `farm_data.csv` exportado pelo programa Python
-- Transformação da variável `agriculture_type` em fator
+- Transformação das variáveis `agriculture_type` e `farm_name` em fator
 - Cálculo das seguintes métricas por cultura:
   - Média e desvio padrão da **área plantada**
   - Média e desvio padrão do **insumo utilizado**
   - Densidade de insumo por metro quadrado (`quantity_product / area`)
-  - Coeficiente de variação (CV = desvio padrão / média)
 
 ### 📈 Interpretação dos Resultados
 Essas análises ajudam o agricultor a:
-- Entender o perfil médio das fazendas por cultura
-- Avaliar a variabilidade no uso de insumos (via desvio padrão e coeficiente de variação)
+- Entender o perfil médio das fazendas por cultura e por nome da fazenda
+- Avaliar a variabilidade no uso de insumos (via desvio padrão)
 - Refletir sobre eficiência e consistência nas práticas agrícolas
 
 ### ⚠️ Limitações Importantes
 - **Culturas diferentes usam insumos diferentes** (ex: soja usa água, cana usa nitrogênio)
-- As análises agrupam por tipo de cultura — portanto, **os insumos não devem ser comparados diretamente entre culturas**
-- Futuramente, o projeto pode ser expandido para incluir o tipo de insumo como coluna e permitir análises mais granulares
-
+- As análises agrupam por tipo de cultura e por nome da fazenda — portanto, **os insumos não devem ser comparados diretamente entre culturas**
 ---
 
 ## 📁 Organização do Projeto
